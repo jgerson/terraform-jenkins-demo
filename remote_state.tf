@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    organization = "seancarolan"
+    organization = "jgerson1org"
 
     workspaces {
       name = "cat-demo-app"
