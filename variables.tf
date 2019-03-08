@@ -12,12 +12,12 @@ variable "resource_group" {
 
 variable "prefix" {
   description = "This prefix will be included in the name of some resources."
-  default     = "tfguide"
+  default     = "jgerson"
 }
 
 variable "hostname" {
   description = "Virtual machine hostname. Used for local hostname, DNS, and storage-related names."
-  default     = "catapp"
+  default     = "jgerson"
 }
 
 variable "location" {
